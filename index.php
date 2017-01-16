@@ -1,3 +1,5 @@
+<?php include ('config/setup.php'); ?>
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -6,15 +8,8 @@
     <meta name="description" content="My PHP Blog">
     <meta name="author" content="Tamim Fares">
 
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/jquery-ui.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/papersskin.css">
-
-    <script src="js/jquery-3.1.1.min.js" charset="utf-8"></script>
-    <script src="js/jquery-ui.min.js" charset="utf-8"></script>
-    <script src="js/bootstrap.min.js" charset="utf-8"></script>
-    <script src="js/papersskin.js" charset="utf-8"></script>
+    <?php include ('config/css.php'); ?>
+    <?php include ('config/js.php'); ?>
 
     <title>Papers Skin</title>
   </head>
